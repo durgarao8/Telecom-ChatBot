@@ -1,0 +1,137 @@
+﻿question,ground_truth,reference_context,source,category,question_type,generated_answer,retrieved_contexts,retrieved_sources,execution_error
+Where can I see how much mobile data I have left?,Dial *123# from your mobile or log in to the MyTelecom app and go to My Usage. Your remaining data balance will be shown on the dashboard.,Dial *123# from your mobile or log in to the MyTelecom app and go to My Usage. Your remaining data balance will be shown on the dashboard.,faq.csv | row_id=1,data,faq,"You can check your remaining mobile data in two ways:
+
+**1. Using your phone’s dialer**
+1. Open the phone app.
+2. Dial **\*123#** and press the call button.
+3. A USSD screen will appear showing your current data balance.
+
+**2. Using the MyTelecom app**
+1. Open the **MyTelecom** app on your device.  
+2. Tap **My Usage** (usually on the main dashboard or in the menu).  
+3. Your remaining data balance will be displayed on the dashboard.
+
+Either method will give you a quick view of how much data you have left.","Q: How do I check my current data balance?
+A: Dial *123# from your mobile or log in to the MyTelecom app and go to My Usage. Your remaining data balance will be shown on the dashboard.
+
+---
+
+Issue: Background apps consuming all mobile data
+Description: Customer used 8 GB of data in 3 days and believes their apps are syncing in the background without consent.
+Resolution: Reviewed data usage breakdown — a cloud backup app had uploaded 6.2 GB. Educated customer on restricting background data per app in Android settings. Enabled Data Saver mode on the account as a safeguard.
+
+---
+
+Q: How do I check if there is a network outage in my area?
+A: Open the MyTelecom app > Help > Network Status and enter your postcode. Alternatively check our live status page at telecom.example.com/status. Planned maintenance windows are listed 48 hours in advance.
+
+---
+
+Telecom Technical Reference Guide  - Internal Use Only
+1. Introduction to Mobile Networks
+Mobile networks have evolved through several generations, each offering significant improvements in speed,
+capacity, and capability.
+2G (GSM) networks introduced digital voice and basic data services such as SMS. Data speeds were limited to
+around 50 kbps, sufficient only for text messaging and simple email.
+3G (UMTS/HSPA) networks brought mobile broadband, enabling video calls, mobile internet browsing, and app
+
+---
+
+billing cycle. Unused add-on data does not roll over.
+Hotspot (Tethering) Usage: Hotspot usage draws from the same data allowance as device usage. However, some
+plans include a separate hotspot sub-allowance. Once the hotspot sub-allowance is exhausted, hotspot speeds
+are throttled even if device data remains available. Enterprise and business plans typically have higher or
+uncapped hotspot allowances.
+Data Usage Monitoring: Customers can monitor real-time usage in the MyTelecom app. Push notifications are","faq, ticket, faq, guides, guide",
+"What are common reasons for slow mobile internet, and what can I try first?","Slow speeds are usually caused by network congestion in your area, being in a low-signal zone, or reaching your high-speed data cap. Try toggling airplane mode off and on to force a network reconnect. If your high-speed data is exhausted your speed is throttled to 512 kbps.","Slow speeds are usually caused by network congestion in your area, being in a low-signal zone, or reaching your high-speed data cap. Try toggling airplane mode off and on to force a network reconnect. If your high-speed data is exhausted your speed is throttled to 512 kbps.",faq.csv | row_id=2,data,faq,"**Common reasons for slow mobile internet**
+
+1. **Network congestion** in your area.  
+2. **Low‑signal zone** – you’re out of strong coverage.  
+3. **High‑speed data cap reached** – once the cap is exhausted the speed is throttled to about 512 kbps.
+
+**What to try first**
+
+1. **Toggle airplane mode** – turn it on for about 10 seconds, then turn it off.  
+   - This forces the device to re‑register on the network and often clears a temporary glitch that’s causing slow speeds.  
+
+If the speed remains slow after the toggle, the next steps would involve checking for congestion or data‑cap throttling, but the airplane‑mode toggle is the recommended first action.","Q: Why is my mobile internet so slow?
+A: Slow speeds are usually caused by network congestion in your area, being in a low-signal zone, or reaching your high-speed data cap. Try toggling airplane mode off and on to force a network reconnect. If your high-speed data is exhausted your speed is throttled to 512 kbps.
+
+---
+
+Step 2  - Rule out a temporary network glitch. Toggle airplane mode on for 10 seconds then off. This forces the
+device to re-register on the network, which resolves many transient issues.
+Step 3  - Check APN settings. The Access Point Name (APN) tells the device how to connect to the carrier's data
+network. Incorrect APN settings are a common cause of data connectivity failure after a phone reset or SIM swap.
+Navigate to Settings > Mobile Network > APN and verify the APN name, username, and password match the
+carrier's published settings.
+
+---
+
+after using some data on the day will still be charged the bundle price, but any pre-bundle usage at standard rates
+is not reversed.
+Common Roaming Failures: The three most common reasons a customer has no service abroad are: (1) roaming
+not enabled on the account, (2) device not configured for automatic network selection  - navigate to Settings >
+Mobile Network > Network Selection > Automatic, (3) the visited country is not covered by our roaming
+agreements. Always check the coverage map before travel.
+
+---
+
+Q: My calls keep dropping. What should I do?
+A: Call drops are often caused by weak signal, SIM card faults, or a faulty device antenna. Try these steps: 1) Restart the phone 2) Reseat the SIM 3) Test with another SIM if possible 4) Check for network outages via the app.
+
+---
+
+carrier's published settings.
+Step 4  - Inspect the SIM. Power off the device, remove the SIM, clean the gold contacts with a dry cloth, and
+reseat it firmly. A partially seated SIM can cause intermittent connectivity.
+Step 5  - Check for a network outage. Consult the carrier's live status page or app. If an outage is confirmed, no
+device-level action will restore service; the customer must wait for resolution.
+Step 6  - Test with another SIM or device. Swapping the SIM into a different handset confirms whether the issue is","faq, guide, guide, faq, guide",
+How can I switch my phone to 4G LTE?,"Go to Settings > Mobile Network > Preferred Network Type and select 4G/LTE. Make sure your SIM supports 4G and your plan includes it. If the option is missing, contact support to check your account.","Go to Settings > Mobile Network > Preferred Network Type and select 4G/LTE. Make sure your SIM supports 4G and your plan includes it. If the option is missing, contact support to check your account.",faq.csv | row_id=3,connectivity,faq,"To enable 4G /LTE on your phone, follow these steps:
+
+1. **Open Settings** on your device.  
+2. Navigate to **Mobile Network** (or **Cellular**).  
+3. Select **Preferred Network Type** (or a similar option).  
+4. Choose **4G /LTE** from the list.  
+
+**Additional checks**
+
+- Make sure the SIM card you are using is 4G‑compatible.  
+- Verify that your mobile plan includes 4G/LTE service.  
+
+If the 4G/LTE option is not visible, the SIM or your account may not be provisioned for it. In that case, contact support to have them check your account and SIM compatibility.","Q: How do I activate 4G/LTE on my phone?
+A: Go to Settings > Mobile Network > Preferred Network Type and select 4G/LTE. Make sure your SIM supports 4G and your plan includes it. If the option is missing, contact support to check your account.
+
+---
+
+voice simultaneously without degradation. VoLTE requires a compatible device, a VoLTE-enabled SIM, and an
+account that has VoLTE activated.
+Enabling VoLTE: On most Android devices navigate to Settings > Mobile Network > VoLTE and toggle it on. On
+iPhone go to Settings > Mobile Data > Mobile Data Options > Voice & Data and select LTE. If the option is absent
+the device may not support VoLTE or the profile has not been pushed to the SIM. Agents can push the VoLTE
+profile remotely via the subscriber management system.
+
+---
+
+Here are concise summaries of how to turn your router on and off:
+Using the Power Button: Press the power button to turn off the router, wait 30 seconds, then press it again to turn it back on.
+Unplugging Method: Disconnect the power cable, wait 30 seconds, then plug it back in to restart the router.
+Full Restart for Issues: Turn off the router, wait 1 minute, then turn it back on to refresh the connection.
+
+To turn your router off, press the power button (if available) or unplug it from the power source. Wait about 30 seconds to 1 minute before turning it back on by pressing the power button again or plugging it back in. This helps refresh the connection and resolve minor network issues.
+
+---
+
+downloads at speeds of 1-14 Mbps. This generation established the foundation for smartphone adoption
+worldwide.
+4G (LTE) networks delivered a major leap forward, with typical download speeds of 20-150 Mbps and latency
+below 50 ms. LTE networks are fully IP-based, meaning voice calls are transmitted as data (VoLTE) rather than
+over a separate circuit-switched channel. LTE-Advanced (LTE-A) uses carrier aggregation to combine multiple
+frequency bands, pushing speeds beyond 300 Mbps.
+5G networks represent the current frontier. Deploying across sub-6 GHz and millimetre-wave (mmWave)
+
+---
+
+Q: What is VoLTE and how do I enable it?
+A: VoLTE (Voice over LTE) provides HD voice calls over the 4G network. Enable it via Settings > Mobile Network > VoLTE. Your device and SIM must support VoLTE. If the option is greyed out call 611 to check compatibility.","faq, guide, restart_router.txt, guide, faq",
